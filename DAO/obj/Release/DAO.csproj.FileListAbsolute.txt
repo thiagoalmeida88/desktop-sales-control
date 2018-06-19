@@ -1,0 +1,8 @@
+E:\ControleVendasDesktop\ControleVendas\DAO\bin\Release\DAO.dll.config
+E:\ControleVendasDesktop\ControleVendas\DAO\bin\Release\DAO.dll
+E:\ControleVendasDesktop\ControleVendas\DAO\bin\Release\DAO.pdb
+E:\ControleVendasDesktop\ControleVendas\DAO\bin\Release\EntityFramework.dll
+E:\ControleVendasDesktop\ControleVendas\DAO\bin\Release\EntityFramework.xml
+E:\ControleVendasDesktop\ControleVendas\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+E:\ControleVendasDesktop\ControleVendas\DAO\obj\Release\DAO.dll
+E:\ControleVendasDesktop\ControleVendas\DAO\obj\Release\DAO.pdb

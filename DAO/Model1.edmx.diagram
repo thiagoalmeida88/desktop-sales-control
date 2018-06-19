@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="10d1203e04e9442687b0afcc5b41d170" Name="Diagram1">
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_cliente" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_empresa" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_marca" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_modelo" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_venda" Width="1.5" PointX="9.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_vendedor_sistema" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_cliente_tb_vendedor_sistema1" ManuallyRouted="false" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_venda_tb_cliente1" ManuallyRouted="false" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_marca_tb_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_modelo_tb_empresa1" ManuallyRouted="false" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_vendedor_sistema_tb_empresa1" ManuallyRouted="false" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_modelo_tb_marca1" ManuallyRouted="false" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_venda_tb_vendedor_sistema1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_cor" Width="1.5" PointX="3" PointY="9.875" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_cor_tb_empresa1" />
+        <EntityTypeShape EntityType="dbcontrolevendasModel.tb_veiculo" Width="1.5" PointX="7.5" PointY="4.25" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_veiculo_tb_cor1" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_veiculo_tb_empresa1" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_veiculo_tb_modelo1" />
+        <AssociationConnector Association="dbcontrolevendasModel.fk_tb_venda_tb_veiculo1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
